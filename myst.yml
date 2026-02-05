@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  github: yymao/accessibility
+  description: Tutorials on increasing the accessibility of physics and astronomy instructional materials
+  keywords:
+    - Accessibility
+    - Physics
+    - Astronomy
+  license: CC-BY-NC-4.0
+  toc:
+    - file: index.md
+    - file: start.md
+    - file: images.md
+    - file: videos.md
+    - file: colors.md
+    - file: latex.md
+    - file: office.md
+    - file: google.md
+    - file: pdf.md
+    - file: handwriting.md
+    - file: webpages.md
+    - file: code.md
+
+site:
+  template: book-theme
+  options:
+    favicon: https://yymao.github.io/favicon.ico
+    logo_text: ✨ Accessibility in P&A
