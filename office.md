@@ -21,7 +21,6 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 1.  Right-click the image (or a non-text object).
 2.  Select `Properties` from the context menu (sometimes called `Description`).
 3.  Fill in the `Description` Field (sometimes this field is hidden under the `Options` tab). Note that it is the *Description* field that serves as the alt text for the image (not *Title*, *Name*, or, most confusingly, *Alternative*).
-4.  If the image is purely decorative, you can simply say "decorative" in the `Description` text box.
 
 ### For Google Docs/Slides
 
@@ -29,6 +28,12 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 2. Select `Format options` from the context menu.
 3. In the Format options panel that appears on the right, expand the `Alt text` section.
 4. Enter the image description in the `Description` field.
+
+### For Apple iWork (Pages/Keynote)
+
+1.  Right-click the image (or a non-text object).
+2.  Select `Format` from the context menu.
+3.  Enter the image description in the `Description` field.
 
 ## Use Semantic Markup
 
@@ -68,12 +73,15 @@ Microsoft Office and OpenOffice/LibreOffice both offer built-in accessibility ch
 1. Go to the `Review` tab (in Microsoft Office) or the `Tools` menu (in OpenOffice/LibreOffice) and click `Check Accessibility` (or `Accessibility Check`).
 2. Follow the prompts to review any accessibility issues identified by the checker and make necessary adjustments to your document.
 
-Google Docs/Slides do not have a built-in accessibility checker unfortunately. If you want to use a checker, you can download the document and then use Microsoft Office or OpenOffice/LibreOffice's accessibility checker.
+Google Docs/Slides and Apple's iWork suite of applications (Pages, Keynote) do not have a built-in accessibility checker unfortunately. If you want to use a checker, you can download the document and then use Microsoft Office or OpenOffice/LibreOffice's accessibility checker.
 
 ## Share in the Native File Formats
 
 It may be counterintuitive, but sharing documents and slides in their native file formats (e.g., `.docx`, `.pptx`) can often be more accessible for assistive technologies. If preserving the exact layout is not critical for your use case, consider sharing in the original file format. Or, share it alongside the PDF version.
 
+:::{caution}
+If you use Apple's Pages or Keynote, you may want to share in `.docx` or `.pptx` format because Pages and Keynote's native formats are proprietary and require students having access to Apple devices or iCloud to open them.
+:::
 
 ## Considerations when Saving as PDF
 
