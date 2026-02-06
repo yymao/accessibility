@@ -23,7 +23,7 @@ Adding the above will automatically enable tagging and accessibility compatibili
 However, there may be a few additional steps you need to take to ensure full accessibility compliance (see the sections below).
 
 :::{note}
-If your LaTeX compiler does not support `\DocumentMetadata`, you will need to update your LaTeX distribution to a more recent version.
+The above `\DocumentMetadata` setup requires a LaTeX distribution of 2025 or newer to work properly.
 :::
 
 ## Use Packages that Support the Tagging Feature
