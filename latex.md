@@ -1,9 +1,9 @@
 # LaTeX-generated Documents
 
-:::{seealso}
-This page focuses on practical tips to make LaTeX-generated PDF documents more accessible.
-For more comprehensive information on LaTeX accessibility, please refer to the [LaTeX Tagging Project](https://latex3.github.io/tagging-project/) page.
+:::{important}
+You need a LaTeX distribution of **2025 or newer** to produce compliant PDF files.
 :::
+
 
 ## The Essentials
 
@@ -12,8 +12,8 @@ At the *very* beginning of your LaTeX source file (even *before* setting `\docum
 ```latex
 \DocumentMetadata{
   lang=en-US,
+  pdfversion=2.0,
   pdfstandard=ua-2,
-  pdfstandard=a-4f,
   tagging=on,
   tagging-setup={math/alt/use}
 }
@@ -22,8 +22,8 @@ At the *very* beginning of your LaTeX source file (even *before* setting `\docum
 Adding the above will automatically enable tagging and accessibility compatibility features in the generated PDF.
 However, there may be a few additional steps you need to take to ensure full accessibility compliance (see the sections below).
 
-:::{note}
-The above `\DocumentMetadata` setup requires a LaTeX distribution of 2025 or newer to work properly.
+:::{tip}
+Just want a template to get started? Jump to [a full working LaTeX example here](#latex-example).
 :::
 
 ## Use Packages that Support the Tagging Feature
@@ -96,8 +96,8 @@ If you have `lualatex` set up on your machine, then you can enable MathML taggin
 ```latex
 \DocumentMetadata{
   lang=en-US,
+  pdfversion=2.0,
   pdfstandard=ua-2,
-  pdfstandard=a-4f,
   tagging=on,
   tagging-setup={math/alt/use,math/setup=mathml-SE}
 }
@@ -110,3 +110,62 @@ If you have `lualatex` set up on your machine, then you can enable MathML taggin
 :::{hint}
 The key changes here include adding `math/setup=mathml-SE` to the `tagging-setup` option in the `\DocumentMetadata` command, and adding the `unicode-math` package.
 :::
+
+:::{seealso}
+For more comprehensive information on LaTeX accessibility, please refer to the [LaTeX Tagging Project](https://latex3.github.io/tagging-project/) page.
+:::
+
+(latex-example)=
+## A Full Example of an Accessible LaTeX Document
+
+Below is a full example of a LaTeX document that includes PDF tags and alternative text for equations.
+You can use this as a template for your own LaTeX documents to ensure they are accessible.
+
+```latex
+\DocumentMetadata{
+  lang=en-US,
+  pdfversion=2.0,
+  pdfstandard=ua-2,
+  tagging=on,
+  tagging-setup={math/alt/use}
+}
+
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumext}
+\hypersetup{pdftitle={Lecture note for Introduction Cosmology}, pdfdisplaydoctitle}
+
+\title{Lecture note for Introduction Cosmology}
+\author{Yao-Yuan Mao}
+\date{February 6, 2026}
+\begin{document}
+
+\maketitle
+
+\section*{Matter-Dominated, Flat Universe}
+
+We begin with the Friedmann equation for a flat universe containing only (nonrelativistic) matter. There is only one term on the right-hand side:
+\begin{equation}
+\left( \frac{\dot a}{a} \right)^2 =
+\frac{8\pi G}{3c^2}\, \frac{\epsilon_{m,0}}{a^3}.
+\end{equation}
+
+\section*{Quiz}
+
+\begin{enumext}
+  \item Consider a \emph{non-flat} universe that contains matter, radiation, \emph{and} the cosmological constant ($\Lambda$). Put the following eras in a chronological order.
+  \begin{enumext}[columns=2]
+     \item Curvature-dominated era
+     \item Matter-dominated era
+     \item Radiation-dominated era
+     \item $\Lambda$-dominated era
+  \end{enumext}
+\end{enumext}
+
+\end{document}
+```
