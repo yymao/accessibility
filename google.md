@@ -19,6 +19,6 @@ Unfortunately, Google Docs and Slides do not generate accessible PDFs. If you mu
    If you use this option, make sure you download `.docx` or `.pptx`, not `.odt` or `.odp`, because Google Docs does not preserve all the accessibility features in the latter formats.
    :::
 
-2. Download the PDF from Google Docs, and then use UDoIt (available in Canvas) to tag the PDF file. See [](pdf.md) for how to use UDoIt on pre-existing PDF files.
+2. Download the PDF from Google Docs, and then use UDoIt (available in Canvas) to tag the PDF file and add alt text. See [](pdf.md) for how to use UDoIt on pre-existing PDF files.
 
-3. Download the PDF from Google Docs, and then use Adobe Acrobat Pro to add accessibility features (e.g., alt text, document structure tags). This can be time-consuming and requires knowing how to use Adobe Acrobat Pro.
+3. Download the PDF from Google Docs, and then use Adobe Acrobat Pro to add accessibility features (e.g., alt text, document structure tags). See [](pdf.md) for how to use Adobe Acrobat Pro on pre-existing PDF files.

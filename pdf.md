@@ -23,10 +23,12 @@ If you cannot find an alternative source, you can try using UDoIt (available in 
 
 4. You can now request to convert the PDF file into an accessible format (such as a canvas page or an HTML file). Or you can request to auto-tag the PDF file to make it accessible while retaining the PDF format. You can review the generated document and decide if you want to replace the original file with the new accessible version. You can also find the generated versions in a folder called `Alternate Files` in the Canvas course's file section.
 
-## Use Adobe Acrobat Pro to Add Accessibility Features Manually
+## Use Adobe Acrobat Pro to Add or Check Accessibility Features
 
-:::{caution} Work in Progress
-This section is still under development.
-:::
+If you have access to Adobe Acrobat Pro, you can use it to check the accessibility features in an existing PDF file, and also to add them if they are missing.
 
-If you have access to Adobe Acrobat Pro, you can use it to add accessibility features to an existing PDF file.
+1. Open the PDF file in Adobe Acrobat Pro.
+2. Go to `Tools` > `Accessibility` (sometimes called `Prepare for accessibility`)
+3. Select `Check for accessibility` to see if the PDF file has the necessary accessibility features (e.g., tags, alt text for images, etc.). If there are issues, you can use the `Accessibility Checker` to identify and fix them.
+4. If the PDF file is missing tags, you can use the `Automatically tag PDF`.
+5. If the PDF file contains images that are missing alt text, you will need to add them with the `Add alternative text` option.
