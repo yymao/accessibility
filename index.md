@@ -6,7 +6,7 @@ authors:
 
 # Accessibility in Physics & Astronomy
 
-:::{attention} Work in Progress - Last Updated February 5, 2026
+:::{attention} Work in Progress - Last Updated February 6, 2026
 This website is under active development.
 If you have any questions, notice any issues, or have suggestions, please contact Yao directly.
 :::
