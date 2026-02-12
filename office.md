@@ -20,7 +20,7 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 
 1.  Right-click the image (or a non-text object).
 2.  Select `Properties` from the context menu (sometimes called `Description`).
-3.  Fill in the `Description` Field (sometimes this field is hidden under the `Options` tab). Note that it is the *Description* field that serves as the alt text for the image (not *Title*, *Name*, or, most confusingly, *Alternative*).
+3.  Fill in the `Description` field (sometimes this field is hidden under the `Options` tab). Note that it is the *Description* field that serves as the alt text for the image (not *Title*, *Name*, or, most confusingly, *Alternative*).
 
 ### For Google Docs/Slides
 
@@ -33,7 +33,7 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 
 1.  Right-click the image (or a non-text object).
 2.  Select `Format` from the context menu.
-3.  Enter the image description in the `Description` field.
+3.  Enter the image description in the `Description` field (under the `Image` tab).
 
 ## Use Semantic Markup
 
