@@ -57,4 +57,4 @@ You can use an accessibility checker tool to check your webpage for accessibilit
 You can find a list of accessibility checker tools at W3C's [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/).
 A few popular options include:
 
-- [](https://www.accessibilitychecker.org/)
+- [Accessibility Checker](https://www.accessibilitychecker.org/)
