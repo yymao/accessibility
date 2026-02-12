@@ -31,8 +31,10 @@ After the AI chatbot generates the alt text, review and edit it as needed. **Do 
 
 ## How to Add Alt Text
 
-Depending on the software you are using, the steps to add alt text to an image may vary.
-We will provide specific instructions in the relevant sections for LaTeX, Microsoft Office applications, and Google Docs/Slides.
+Depending on the software you are using, the steps to add alt text to an image may vary:
+- [](office.md) contains instructions for Microsoft Word/PowerPoint, OpenOffice/LibreOffice, Apple iWork Pages/Keynote, and Google Docs/Slides.
+- [](latex.md) contains instructions for LaTeX documents.
+- [](webpages.md) contains instructions for HTML webpages.
 
-Generally, you can right-click on the image and look for an option like "Add Alt Text" or "Add Image Description".
+For software not listed above, generally, you can right-click on the image and look for an option like "Add Alt Text" or "Add Image Description".
 Sometimes, this option may be hidden under "Format" or "Properties" on the menu.

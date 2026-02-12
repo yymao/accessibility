@@ -50,3 +50,11 @@ Render math using MathJax rather than images of equations. This allows screen re
 </body>
 </html>
 ```
+
+## Use Accessibility Checker
+
+You can use an accessibility checker tool to check your webpage for accessibility issues and get suggestions on how to fix them.
+You can find a list of accessibility checker tools at W3C's [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/test-evaluate/tools/list/).
+A few popular options include:
+
+- [](https://www.accessibilitychecker.org/)
