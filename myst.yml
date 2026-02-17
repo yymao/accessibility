@@ -15,6 +15,10 @@ project:
     - file: videos.md
     - file: colors.md
     - file: latex.md
+    - file: latex-distribution.md
+      hidden: true
+    - file: latex-example.md
+      hidden: true
     - file: office.md
     - file: google.md
     - file: pdf.md
