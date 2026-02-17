@@ -6,11 +6,6 @@ authors:
 
 # Accessibility in Physics & Astronomy
 
-:::{attention} Work in Progress - Last Updated February 11, 2026
-This website is under active development.
-If you have any questions, notice any issues, or have suggestions, please contact Yao directly.
-:::
-
 This website contains a set of tutorials and practical tips to
 improve accessibility of instructional materials that are commonly used
 in Physics and Astronomy.
@@ -23,6 +18,10 @@ at the University of Utah to meet the
 :::{hint}
 On and after April 24, 2026, all course materials that are provided to students online must meet the Web Content Accessibility Guidelines (WCAG) Version 2.1, Level AA standards.
 If you are not posting new materials for your Spring 2026 courses after April 24, 2026, you can focus on making your upcoming Summer/Fall 2026 course materials accessible.
+:::
+
+:::{tip}
+Feedback and suggestions are very welcome! Please reach out to Yao directly.
 :::
 
 :::{danger} Legal Disclaimer
