@@ -29,7 +29,7 @@ Keep the transcription task manageable by breaking down the handwritten notes in
 :::
 
 :::{tip}
-When using ChatGPT, use the "Extended Thinking" option for better results. The free version may not be able to handle the task well.
+When using ChatGPT, use the "Thinking" option for better results. The free version may not be able to handle the task well.
 :::
 
 Once you have the LaTeX source file, you will want to review it and also add the `\DocumentMetadata` tags as described in [](latex.md) to make it an accessible PDF file.
