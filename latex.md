@@ -24,7 +24,12 @@ At the *very* beginning of your LaTeX source file (even *before* setting `\docum
 ```
 
 Adding the above will automatically enable tagging and accessibility compatibility features in the generated PDF.
-However, there may be a few additional steps you need to take to ensure full accessibility compliance (see the sections below).
+The resulting PDF file will look the same visually, whether on screen or as a printout; the accessibility features are embedded behind the scenes.
+
+If your document has images or tables, there may be additional steps that you need to take to ensure full accessibility compliance (see below).
+
+For equations, the setup above adds the LaTeX source code as alternative text (alt text) to math content, which helps and will pass the accessibility checker, but it is not the best practice for people using screen readers. See [](latex:mathml) for a different approach for math content.
+
 
 ## Use Packages that Support the Tagging Feature
 
@@ -85,6 +90,7 @@ In your LaTeX document, make sure to use semantic markup commands for different 
 For example, use `\section{}`, `\subsection{}`, and `\paragraph{}` for headings, instead of manually changing font sizes or styles.
 Similarly, use `\emph{}` for emphasis instead of changing the font to italics directly.
 
+(latex:mathml)=
 ## Above and Beyond: Enable MathML with LuaLaTeX
 
 While the above setup can generate PDF files that meet the accessibility requirements,
@@ -99,7 +105,7 @@ If you have `lualatex` set up on your machine, then you can enable MathML taggin
   pdfversion=2.0,
   pdfstandard=ua-2,
   tagging=on,
-  tagging-setup={math/alt/use,math/setup=mathml-SE}
+  tagging-setup={math/setup=mathml-SE}
 }
 
 \documentclass{article}
@@ -108,7 +114,9 @@ If you have `lualatex` set up on your machine, then you can enable MathML taggin
 ```
 
 :::{hint}
-The key changes here include adding `math/setup=mathml-SE` to the `tagging-setup` option in the `\DocumentMetadata` command, and adding the `unicode-math` package.
+The key changes here are (1) replacing `math/alt/use` with `math/setup=mathml-SE` in `\DocumentMetadata`'s `tagging-setup` option, (2)adding the `unicode-math` package, and (3) switching to `lualatex` for compilation.
+
+Note that enabling MathML output make the PDF file more accessible, but the resulting PDF files will fail Canvas' accessibility checker. We are seeking further guidance from CDA on this issue.
 :::
 
 :::{seealso}
