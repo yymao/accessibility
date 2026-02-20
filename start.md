@@ -37,3 +37,4 @@ In addition to the five focus areas, this site contains additional resources on 
 - [](handwriting.md)
 - [](webpages.md)
 - [](code.md)
+- [](canvas.md)

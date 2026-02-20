@@ -25,6 +25,7 @@ project:
     - file: handwriting.md
     - file: webpages.md
     - file: code.md
+    - file: canvas.md
 
 site:
   template: book-theme
