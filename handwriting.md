@@ -1,7 +1,7 @@
 # Handwritten Notes
 
 :::{note}
-As of February 5, 2026, the CTE's [Accessibility Essentials page](https://cte.utah.edu/instructor-education/accessibility-essentials/index.php#access5) states that "instructors can continue to provide "as-is" images/PDFs of handwritten notes, *but only under certain circumstances*."
+As of February 2026, the CTE's [Accessibility Essentials FAQ page](https://cte.utah.edu/instructor-education/accessibility-essentials/faq.php#faq1) states that "instructors can continue to provide "as-is" images/PDFs of handwritten notes, *but only under certain circumstances*."
 Specifically, the allowed circumstance is when all the following are met: the class is an in-person class, the materials in the handwritten notes are covered in other course resources, *and* the notes are provided only as a record of what was discussed in class.
 The CTE also states that they are "working to find further legal guidance on this question to ensure we provide the most accurate information possible."
 :::
@@ -25,7 +25,11 @@ With the help of modern AI tools, it is possible to convert handwritten notes in
 > Generate a LaTeX source file that captures all the contents of the uploaded handwritten lecture notes. Make the LaTeX file reflect the handwritten notes as closely as possible. Context: The lecture notes are for an undergraduate-level course on cosmology. This particular lecture discusses solving the scale factor for single-component universes.
 
 :::{tip}
-Use the flagship/pro version of ChatGPT for better results. The free version may not be able to handle the task well.
+Keep the transcription task manageable by breaking down the handwritten notes into smaller sections and transcribing just a couple of pages at a time.
+:::
+
+:::{tip}
+When using ChatGPT, use the "Extended Thinking" option for better results. The free version may not be able to handle the task well.
 :::
 
 Once you have the LaTeX source file, you will want to review it and also add the `\DocumentMetadata` tags as described in [](latex.md) to make it an accessible PDF file.
