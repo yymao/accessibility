@@ -43,9 +43,10 @@ For incompatible packages, the page may also suggest alternative packages that a
 
 Some commonly used packages that are not fully compatible and their alternatives are listed below
 
-| Incompatible Package | Alternative Package(s) |
-|----------------------|------------------------|
-| `enumitem`           | `enumext`              |
+| Incompatible packages | Possible alternatives |
+|-----------------------|-----------------------|
+| `enumitem`, `exam`    | [`enumext`](https://ctan.org/pkg/enumext)   |
+| `beamer`              | [`ltx-talk`](https://ctan.org/pkg/ltx-talk) |
 
 
 ## Add Alt Text to Images
