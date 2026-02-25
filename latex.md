@@ -1,12 +1,13 @@
 # LaTeX-generated Documents
 
 To make LaTeX-generated documents accessible, there are three key steps to take:
-1. Share the source LaTeX file along with the compiled PDF files.
-2. Enable the PDF tagging feature in your LaTeX source file.
-3. Update the content to fully utilize accessibility features.
+1. [Share the source LaTeX file along with the compiled PDF files](latex:share-source),
+2. [Enable the PDF tagging feature in your LaTeX source file](latex:enable-tagging), and
+3. [Update the content to fully utilize accessibility features](latex:update-content).
 
 You should do *all* three of the above steps, and we will go through each in detail below.
 
+(latex:share-source)=
 ## Share the Source LaTeX File
 
 While accessibility features can be enabled when using modern LaTeX compilers,
@@ -16,6 +17,7 @@ By providing the source LaTeX file, people who cannot access the PDF file can st
 When uploading a LaTeX-generated PDF file to Canvas,
 make sure to also upload the source LaTeX file in the same location (so that it is easy to find).
 
+(latex:enable-tagging)=
 ## Enable the PDF Tagging Feature
 
 :::{important}
@@ -42,7 +44,7 @@ To enable the PDF tagging feature, you need to add a `\DocumentMetadata` command
 Adding the above will automatically enable tagging and accessibility compatibility features in the generated PDF.
 The resulting PDF file will look the same visually, whether on screen or as a printout; the accessibility features are embedded behind the scenes.
 
-If your document has images or tables, there may be additional steps that you need to take to ensure full accessibility compliance (see below).
+If your document has images or tables, there may be additional steps that you need to take to ensure full accessibility compliance (see [the section below](latex:update-content)).
 You should also use semantic markup in your LaTeX source file (e.g., using `\section{}` for section headings) to make sure the generated PDF file is properly tagged.
 
 While this setup will make the resulting PDF file pass the accessibility checker, you should still include the LaTeX source file along with the PDF file when sharing on Canvas.
@@ -68,6 +70,7 @@ Some commonly used packages that are not fully compatible and their alternatives
 | `beamer`              | [`ltx-talk`](https://ctan.org/pkg/ltx-talk) |
 
 
+(latex:update-content)=
 ## Update the Content to Fully Utilize Accessibility Features
 
 Adding `\DocumentMetadata` enables the PDF tagging feature, but you may need to update your content to fully utilize these accessibility features.
