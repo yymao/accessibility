@@ -128,6 +128,7 @@ To do this, you need to compile your LaTeX document with `lualatex` instead of `
 If you have `lualatex` set up on your machine, then you can enable MathML tagging with the following setup:
 
 ```latex
+% !TeX program = lualatex
 \DocumentMetadata{
   lang=en-US,
   pdfversion=2.0,
@@ -142,7 +143,7 @@ If you have `lualatex` set up on your machine, then you can enable MathML taggin
 ```
 
 :::{hint}
-The key changes here are (1) replacing `math/alt/use` with `math/setup=mathml-SE` in `\DocumentMetadata`'s `tagging-setup` option, (2) adding the `unicode-math` package, and (3) switching to `lualatex` for compilation.
+The key changes here are (1) replacing `math/alt/use` with `math/setup=mathml-SE` in `\DocumentMetadata`'s `tagging-setup` option, (2) adding the `unicode-math` package, and (3) switching to `lualatex` for compilation (the compiler may automatically call `lualatex` when it sees the first line `% !TeX program = lualatex`, but this is not guaranteed).
 :::
 
 :::{important}
