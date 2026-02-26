@@ -21,6 +21,9 @@ If you are not posting new materials for your Spring 2026 courses after April 24
 :::
 
 :::{tip}
+This website is still being updated actively.
+To see the specific updates that have been made, you can check the [commit history](https://github.com/yymao/accessibility/commits/main/).
+
 Feedback and suggestions are very welcome! Please reach out to Yao directly.
 :::
 
