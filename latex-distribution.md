@@ -49,11 +49,20 @@ TeX Live is a standard LaTeX distribution that can be installed on Windows, macO
 On macOS or Linux, you can update all of your LaTeX packages by running the following command in a terminal:
 
 ```bash
-tlmgr update --all
+tlmgr update --self --all
 ```
 
 :::{note}
 If you have installed TeX Live in a root directory that requires administrator privileges, you may need to run the above command with `sudo` by adding `sudo` at the beginning of the above command.
+:::
+
+
+:::{tip}
+Updating all the packages may take a while. If you are on or near campus, you can consider using the math department's mirror by running the following command before updating the packages:
+
+```bash
+tlmgr option repository https://ctan.math.utah.edu/ctan/tex-archive/systems/texlive/tlnet
+```
 :::
 
 :::{warning}
