@@ -1,6 +1,6 @@
 # Update LaTeX Distribution and Packages
 
-To make [](latex.md) accessible, you need to have a LaTeX distribution (compiler) of 2025 or newer.
+To make [](latex.md) accessible, you need to have a LaTeX distribution (compiler) of 2025 or newer (2026 is recommended).
 If you have an older version of LaTeX, you will encounter compiling errors when you try to include the accessible features.
 
 :::{tip}
@@ -35,7 +35,7 @@ TeX Live is a standard LaTeX distribution that can be installed on Windows, macO
   There are two versions of MacTeX: the full version ([MacTeX](https://www.tug.org/mactex/mactex-download.html)) and the basic version ([BasicTeX](https://www.tug.org/mactex/morepackages.html)).
   They differ in the number of features installed and, of course, the installation size (MacTeX is about 4GB, BasicTeX is about 0.1GB).
   If you have plenty of disk space and a good internet connection, installing the full version (MacTeX) is recommended.
-  If you already have LaTeX installed on your machine, you can check whether you have MacTeX or BasicTeX installed first, then update it to the 2025 version (or newer).
+  If you already have LaTeX installed on your machine, you can check whether you have MacTeX or BasicTeX installed first, then update it to the 2026 version (or newer).
 
 - [Unix/GNU/Linux](https://www.tug.org/texlive/quickinstall.html)
 
