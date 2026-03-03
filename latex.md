@@ -26,9 +26,7 @@ Remove any such information if you do not want it shared. For example, you may w
 ## Enable the PDF Tagging Feature
 
 :::{important}
-You need a LaTeX distribution of **2025 or newer** to enable PDF tagging.
-You may also need to update some LaTeX packages to their latest versions,
-even if you already have a 2025 LaTeX distribution.
+You need a LaTeX distribution of **2025 or newer** to enable PDF tagging (2026 is recommended).
 See [](latex-distribution.md) for instructions.
 :::
 
@@ -52,7 +50,7 @@ Adding this command will automatically enable tagging and accessibility compatib
 The resulting PDF file will look visually identical, whether on screen or printed; the accessibility features are embedded behind the scenes.
 
 If your document contains images or tables, you need to take additional steps to ensure full accessibility compliance (see [the section below](latex:update-content)).
-You should also use semantic markup in your LaTeX source file (e.g., using `\section{}` for section headings) to ensure the generated PDF file is properly tagged.
+You should also use semantic markup in your LaTeX source file (such as `\section{}` for section headings) to ensure the generated PDF file is properly tagged.
 
 While this setup will help the resulting PDF file pass accessibility checkers, you should still include the LaTeX source file along with the PDF file when sharing on Canvas.
 
@@ -90,7 +88,12 @@ You can add alt text to an image using the `alt` option in the `\includegraphics
 Here is an example:
 
 ```latex
-\includegraphics[width=0.5\textwidth,clip,trim={0 1cm 0 1cm},alt={Repeating pattern of evenly spaced black dots arranged in staggered rows on a white background}]{dot_pattern.png}
+\includegraphics[
+  width=0.5\textwidth,
+  clip,
+  trim={0 1cm 0 1cm},
+  alt={Repeating pattern of evenly spaced black dots arranged in staggered rows on a white background}
+]{dot_pattern.png}
 ```
 
 For guidance on writing good alt text, please refer to the [](images.md) page.
@@ -156,7 +159,7 @@ The key changes here are: (1) replacing `math/alt/use` with `math/setup=mathml-S
 
 :::{important}
 Enabling MathML makes equations more accessible, but the resulting PDF files will fail Canvas's accessibility checker.
-Make sure to include the LaTeX source file along with the PDF file on Canvas.
+Make sure to include the LaTeX source file along with the PDF file when sharing on Canvas.
 :::
 
 :::{seealso} Acknowledgements

@@ -1,20 +1,22 @@
 # Update LaTeX Distribution and Packages
 
-To make [](latex.md) accessible, you need to have a LaTeX distribution (compiler) of 2025 or newer (2026 is recommended).
-If you have an older version of LaTeX, you will encounter compiling errors when you try to include the accessible features.
+To use the LaTeX accessible features described in [](latex.md),
+you need a LaTeX distribution (compiler) of 2025 or newer (2026 is recommended).
+Alternatively, you can use a cloud-based service that provides an up-to-date LaTeX distribution, such as [Overleaf](latex:overleaf).
 
 :::{tip}
 The version requirement is on the LaTeX compiler, not the editor.
 For example, TeXmaker, TeXShop, and TeXstudio are all editors, not compilers, so their version doesn't matter.
 
-Run `pdflatex --version` in a terminal to check the version of your LaTeX distribution.
+Run `pdftex --version` in a terminal to check the version of your LaTeX distribution.
 The version number (3.14...) doesn't matter. It's the release year that matters.
 :::
 
-If you have confirmed that your LaTeX distribution is 2025 or newer, but you still encounter compiling errors such as "LaTeX Error: The key 'document/metadata/tagging' is unknown and is being ignored" after you add the `\DocumentMetadata` command, then you will need to update your LaTeX packages to the latest versions.
+:::{important}
+If you already have the 2025 LaTeX distribution on your machine, but you still encounter compiling errors such as "LaTeX Error: The key 'document/metadata/tagging' is unknown and is being ignored" after you add the `\DocumentMetadata` command, then you will need to [upgrade your LaTeX distribution to 2026](latex:install-texlive).
+:::
 
-Below are some options for obtaining an up-to-date LaTeX distribution as well as instructions for updating LaTeX packages.
-
+(latex:overleaf)=
 ## Use Overleaf (Cloud-based Service)
 
 If you don't want to bother with installing a new LaTeX distribution on your computer, you can consider using a cloud-based service.
@@ -22,9 +24,10 @@ The most popular one is [Overleaf](https://www.overleaf.com/). You will need to 
 
 By default, Overleaf uses the latest TeX Live distribution.
 You can check the LaTeX compiler version by opening a project, and then going to `File` > `Settings` > `Compiler` > `TeX Live version`.
-Make sure it is set to 2025 or newer. If it's not, you can change it to the latest version.
+Make sure it is set to 2025 or newer (or "Rolling" if you see that option).
 
-## Install TeX Live on a Computer
+(latex:install-texlive)=
+## Install or Upgrade TeX Live on Your Machine
 
 TeX Live is a standard LaTeX distribution that can be installed on Windows, macOS, and Linux. Here are the instructions:
 
@@ -46,16 +49,15 @@ TeX Live is a standard LaTeX distribution that can be installed on Windows, macO
 (latex:update-packages)=
 ## Update LaTeX Packages (for TeX Live)
 
-On macOS or Linux, you can update all of your LaTeX packages by running the following command in a terminal:
+On macOS or Linux, you can update all of your LaTeX packages by running the following command in a terminal, if you already have the latest TeX Live distribution installed:
 
 ```bash
 tlmgr update --self --all
 ```
 
 :::{note}
-If you have installed TeX Live in a root directory that requires administrator privileges, you may need to run the above command with `sudo` by adding `sudo` at the beginning of the above command.
+If you have installed TeX Live in a root directory that requires administrator privileges, you may need to run the command with administrator privileges by adding `sudo` at the beginning.
 :::
-
 
 :::{tip}
 Updating all the packages may take a while. If you are on or near campus, you can consider using the math department's mirror by running the following command before updating the packages:
