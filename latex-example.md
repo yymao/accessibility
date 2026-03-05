@@ -1,4 +1,4 @@
-# A Full Example of an Accessible LaTeX Document
+# A LaTeX Template that Generates Accessible PDFs
 
 Below is a full example of a LaTeX document that includes PDF tags and alternative text for equations.
 You can use this as a template for your own LaTeX documents.
