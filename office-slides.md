@@ -13,3 +13,8 @@ Here is an example prompt you can use:
 > Task: Identify all non-text objects, including images, shapes, pictures, and charts, that are embedded in this file. For each object, inspect it and generate alternative text. Use the slide content as context when appropriate.
 >
 > Format: List the alt text for each object and the corresponding slide number in your output.
+
+After the AI chatbot generates the alt text, review and edit the output before adding it to your slides.
+If some objects are purely decorative, mark them as decorative instead of adding descriptive alt text.
+
+If your slides contain charts, diagrams, or other complex visuals, the alt text should focus on the main takeaway rather than listing every visual detail.

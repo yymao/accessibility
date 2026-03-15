@@ -13,7 +13,7 @@ Instead, use actual text whenever possible.
 - **Provide context**: Describe what information the image conveys in the specific context of the document.
 - **Emphasize function**: For complex images (e.g., charts and graphs), provide a brief summary in the alt text that highlights the key takeaway (that is, the function of this image).
 
-If an image is purely decorative and does not convey any information, you can simply put "decorative" as the alt text.
+If an image is purely decorative and does not convey any information, mark it as decorative if the software provides that option. Otherwise, put "decorative" as the alt text.
 
 ## Generate Alt Text with AI Tools
 

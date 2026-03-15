@@ -18,7 +18,7 @@ Note that it will take some time to process, depending on the length of the vide
 The generated closed captions will also be available to the viewers as a transcript for the video,
 you do not need to do anything extra to make the transcript available.
 
-At this point, you have met the minimum requirement of having closed captions available for your video!
+This is often the quickest way to create an initial set of captions and a transcript.
 
 ## Above and Beyond: Review and Edit Captions
 

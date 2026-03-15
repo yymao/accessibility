@@ -24,6 +24,11 @@ With the help of modern AI tools, it is possible to convert handwritten notes in
 
 > Generate a LaTeX source file that captures all the contents of the uploaded handwritten lecture notes. Make the LaTeX file reflect the handwritten notes as closely as possible. Context: The lecture notes are for an undergraduate-level course on cosmology. This particular lecture discusses solving the scale factor for single-component universes.
 
+:::{caution}
+Make sure the notes do not contain sensitive information before uploading them to an AI chatbot.
+Also, review the output carefully as AI-generated transcriptions can contain mistakes.
+:::
+
 :::{tip}
 Keep the transcription task manageable by breaking down the handwritten notes into smaller sections and transcribing just a couple of pages at a time.
 :::
