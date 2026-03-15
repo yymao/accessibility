@@ -6,7 +6,7 @@ Alternatively, you can use a cloud-based service that provides an up-to-date LaT
 
 :::{tip}
 The version requirement is on the LaTeX compiler, not the editor.
-For example, TeXmaker, TeXShop, and TeXstudio are all editors, not compilers, so their version doesn't matter.
+For example, TeXmaker, TeXShop, and TeXstudio are all editors, not compilers, so their versions do not matter.
 
 Run `pdftex --version` in a terminal to check the version of your LaTeX distribution.
 The version number (3.14...) doesn't matter. It's the release year that matters.

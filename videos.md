@@ -6,10 +6,10 @@ Luckily, Canvas makes it easy to generate captions and transcripts.
 ## Generate Closed Captions on Canvas
 
 Go to `My Media` on Canvas. If you don't see this option in the course menu,
-you can click the avatar icon on the top left corner (right below the U icon),
+you can click the avatar icon in the top-left corner (right below the U icon),
 and you should see the `My Media` option from the dropdown menu.
 
-Use the `Add New` button (on the top right) to upload your video or audio file.
+Use the `Add New` button (in the top-right corner) to upload your video or audio file.
 You can also import a YouTube video by selecting `Import from YouTube`.
 
 Once the video is uploaded or imported, closed captions will be generated automatically.

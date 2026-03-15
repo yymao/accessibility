@@ -18,12 +18,12 @@ HTML offers elements that describe the role of the content they contain. Using t
 
 ## Use Informative Link Text
 
-If you have any hyperlinks in your document, make sure the link text is informative.
+If you have any hyperlinks on your page, make sure the link text is informative.
 
 - **DOs**: "my profile," "the accessibility website," "this article on cosmic inflation" etc. If the linked page has an informative title, you can just use that title as the linked text.
-- **DONTs**: URL itself, "click here," "read more," "see this," etc.
+- **DON'Ts**: the URL itself, "click here," "read more," "see this," etc.
 
-## Follow the Rules when Using Color
+## Follow the Rules When Using Color
 
 See [](colors.md) for detailed information on the two guidelines: (1) use sufficient contrast and (2) combine color with other indicators.
 
@@ -31,7 +31,7 @@ For example, if you have hyperlinks, it is best practice to keep the underline s
 
 ## Use MathJax for Math Content
 
-Render math using MathJax rather than images of equations. This allows screen readers to read the math semantically, and also allows you to simply write equations in LaTeX. It's really a win-win. Using MathJax is also straightforward. See below for an example:
+Render math using MathJax rather than images of equations. This allows screen readers to interpret the math semantically and lets you write equations directly in LaTeX. Using MathJax is also straightforward. See below for an example:
 
 ```html
 <!DOCTYPE html>

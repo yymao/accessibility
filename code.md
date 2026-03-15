@@ -10,8 +10,8 @@ We also discuss some considerations for [software used in class](code:software).
 When sharing code snippets, make sure the code is shared in a plain-text format.
 Avoid screenshots of code because screen readers cannot read text inside images.
 
-Include comments in the code to explain what the code does and why and to provide context.
-This is a good practice not just for accessibility as it helps students understand the code better.
+Include comments in the code to explain what the code does and why, and to provide context.
+This is a good practice not just for accessibility, as it helps students understand the code better.
 
 (code:notebooks)=
 ## Jupyter Notebooks and MATLAB Live Scripts

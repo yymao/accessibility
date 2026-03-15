@@ -43,7 +43,7 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 
 To make your documents screen-reader friendly, use semantic markup to structure your content. Semantic markup tells assistive technologies that a section header is a section header, not just a line of bolded larger text. The steps are similar across different office applications.
 
-1. Typically, you will see in the toolbar a dropdown menu (or a set of buttons) that allow you to select styles (e.g., "Normal", "Paragraph", "Heading 1", "Heading 2", etc.).
+1. Typically, you will see in the toolbar a dropdown menu (or a set of buttons) that allows you to select styles (e.g., "Normal", "Paragraph", "Heading 1", "Heading 2", etc.).
 2. If you have a section heading, select the text and apply "Heading 1". If you have a subsection heading, apply "Heading 2", and so on.
 3. For the regular text, make sure you select "Normal" or "Paragraph" style.
 4. You may not like the default formatting of the heading styles. You can modify the styles by doing the following:
@@ -60,7 +60,7 @@ In addition to headings, also use the built-in list features to create bulleted 
 If you have any hyperlinks in your document, make sure the link text is informative.
 
 - **DOs**: "my profile," "the accessibility website," "this article on cosmic inflation" etc. If the linked page has an informative title, you can just use that title as the linked text.
-- **DONTs**: URL itself, "click here," "read more," "see this," etc.
+- **DON'Ts**: the URL itself, "click here," "read more," "see this," etc.
 
 
 ## Follow the Rules When Using Color
@@ -77,14 +77,14 @@ Microsoft Office and OpenOffice/LibreOffice both offer built-in accessibility ch
 1. Go to the `Review` tab (in Microsoft Office) or the `Tools` menu (in OpenOffice/LibreOffice) and click `Check Accessibility` (or `Accessibility Check`).
 2. Follow the prompts to review any accessibility issues identified by the checker and make necessary adjustments to your document.
 
-Google Docs/Slides and Apple's iWork suite of applications (Pages, Keynote) do not have a built-in accessibility checker unfortunately. If you want to use a checker, you can download the document and then use Microsoft Office or OpenOffice/LibreOffice's accessibility checker.
+Google Docs/Slides and Apple's iWork suite of applications (Pages, Keynote) unfortunately do not have a built-in accessibility checker. If you want to use a checker, you can download the document and then use Microsoft Office's or OpenOffice/LibreOffice's accessibility checker.
 
 ## Share in the Native File Formats
 
 It may be counterintuitive, but sharing documents and slides in their native file formats (e.g., `.docx`, `.pptx`) can often be more accessible for assistive technologies. If preserving the exact layout is not critical for your use case, consider sharing in the original file format. Or, share it alongside the PDF version.
 
 :::{caution}
-If you use Apple's Pages or Keynote, you may want to share in `.docx` or `.pptx` format because Pages and Keynote's native formats are proprietary and require students having access to Apple devices or iCloud to open them.
+If you use Apple's Pages or Keynote, you may want to share in `.docx` or `.pptx` format because Pages and Keynote's native formats are proprietary and require students to have access to Apple devices or iCloud to open them.
 :::
 
 ## Considerations When Saving as PDF

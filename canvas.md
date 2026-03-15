@@ -1,6 +1,6 @@
 # Canvas Pages
 
-Here we discuss how to make your Canvas pages accessible, with a focus on the content you directly enter in the Canvas text editor, such as syllabus, pages, announcements, assignment instructions, and quizzes. Note that for any *files* that you upload to Canvas, please follow the instructions from the relevant sections to make them accessible.
+Here we discuss how to make your Canvas pages accessible, with a focus on the content you directly enter in the Canvas text editor, such as your syllabus, pages, announcements, assignment instructions, and quizzes. Note that for any *files* you upload to Canvas, please follow the instructions in the relevant sections to make them accessible.
 
 ## Use Built-in Section Headings and Lists
 
@@ -12,7 +12,7 @@ For more information on how to use the Canvas text editor, see [How do I add and
 
 ## Use Informative Link Text
 
-When adding links to your Canvas pages, use informative link text that describes the destination or purpose of the link, such as "Assignment 1", "Course Syllabus". Avoid using generic link text like "click here" or "read more".
+When adding links to your Canvas pages, use informative link text that describes the destination or purpose of the link, such as "Assignment 1" or "Course Syllabus." Avoid using generic link text like "click here" or "read more."
 
 ## Use of Color
 

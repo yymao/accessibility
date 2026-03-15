@@ -8,7 +8,7 @@ Please first refer to the [](office.md) page for general accessibility tips for 
 
 A webpage is generally more accessible than a PDF file. If you are using Google Docs, you can publish your documents and slides as a webpage by going to `File` > `Share` > `Publish to web`. This will generate a link that you can share with your students.
 
-Note that you do *not* need to change the document's sharing setting. Publishing to the web is a separate feature that allows you to create a publicly-accessible, read-only version of the document. For example, if you are working on the document with some collaborators using the "Anyone with the link can edit" option, you can keep the sharing settings as is and still create a read-only version using `Publish to Web`.
+Note that you do *not* need to change the document's sharing setting. Publishing to the web is a separate feature that allows you to create a publicly accessible, read-only version of the document. For example, if you are working on the document with some collaborators using the "Anyone with the link can edit" option, you can keep the sharing settings as is and still create a read-only version using `Publish to Web`.
 
 ## What If I Need a PDF?
 
