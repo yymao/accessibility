@@ -20,6 +20,8 @@ project:
       - file: latex-example.md
       - file: latex-troubleshooting.md
     - file: office.md
+      children:
+      - file: office-slides.md
     - file: google.md
     - file: pdf.md
     - file: handwriting.md

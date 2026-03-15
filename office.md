@@ -9,6 +9,10 @@ The following sections provide step-by-step instructions to use or enable these 
 
 For how to write good alt text, please refer to the [](images.md) page. Below are instructions on how to add alt text in some common office applications.
 
+:::{seealso}
+[](office-slides.md)
+:::
+
 ### For Microsoft Word/PowerPoint:
 
 1.  Right-click the image (or a non-text object).
@@ -59,7 +63,7 @@ If you have any hyperlinks in your document, make sure the link text is informat
 - **DONTs**: URL itself, "click here," "read more," "see this," etc.
 
 
-## Follow the Rules when Using Color
+## Follow the Rules When Using Color
 
 See [](colors.md) for detailed information on the two guidelines: (1) use sufficient contrast and (2) combine color with other indicators.
 
@@ -83,7 +87,7 @@ It may be counterintuitive, but sharing documents and slides in their native fil
 If you use Apple's Pages or Keynote, you may want to share in `.docx` or `.pptx` format because Pages and Keynote's native formats are proprietary and require students having access to Apple devices or iCloud to open them.
 :::
 
-## Considerations when Saving as PDF
+## Considerations When Saving as PDF
 
 If you must save your documents or slides as PDF files, ensure the accessibility tags are preserved.
 
