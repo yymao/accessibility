@@ -20,7 +20,7 @@ If, on the other hand, the handwritten notes are essential for students to learn
 
 ## Use AI to Convert Handwritten Notes to Accessible PDF
 
-With the help of modern AI tools, it is possible to convert handwritten notes into an accessible PDF file without too much manual work. For example, you can use the U's ChatGPT subscription to convert handwritten notes into a LaTeX source file using the following prompt (edit the context as needed):
+With the help of modern AI tools, it is possible to convert handwritten notes into an accessible PDF file without too much manual work. For example, you can use [the U's ChatGPT subscription](tools:chatgpt) to convert handwritten notes into a LaTeX source file using the following prompt (edit the context as needed):
 
 > Generate a LaTeX source file that captures all the contents of the uploaded handwritten lecture notes. Make the LaTeX file reflect the handwritten notes as closely as possible. Context: The lecture notes are for an undergraduate-level course on cosmology. This particular lecture discusses solving the scale factor for single-component universes.
 
