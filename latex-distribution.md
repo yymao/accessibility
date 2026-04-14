@@ -2,7 +2,7 @@
 
 To use the LaTeX accessible features described in [](latex.md),
 you need a LaTeX distribution (compiler) of 2025 or newer (2026 is recommended).
-Alternatively, you can use a cloud-based service that provides an up-to-date LaTeX distribution, such as [Overleaf](latex:overleaf).
+Alternatively, you can use a cloud-based service that provides an up-to-date LaTeX distribution, such as [Overleaf](#latex:overleaf).
 
 :::{tip}
 The version requirement is on the LaTeX compiler, not the editor.
@@ -13,7 +13,7 @@ The version number (3.14...) doesn't matter. It's the release year that matters.
 :::
 
 :::{important}
-If you already have the 2025 LaTeX distribution on your machine, but you still encounter compiling errors such as "LaTeX Error: The key 'document/metadata/tagging' is unknown and is being ignored" after you add the `\DocumentMetadata` command, then you will need to [upgrade your LaTeX distribution to 2026](latex:install-texlive).
+If you already have the 2025 LaTeX distribution on your machine, but you still encounter compiling errors such as "LaTeX Error: The key 'document/metadata/tagging' is unknown and is being ignored" after you add the `\DocumentMetadata` command, then you will need to [upgrade your LaTeX distribution to 2026](#latex:install-texlive).
 :::
 
 (latex:overleaf)=

@@ -1,8 +1,8 @@
 # Code Snippets and Software
 
-Here we discuss accessibility best practices when sharing [code snippets](code:snippets),
-[Jupyter Notebooks, and MATLAB Live Scripts](code:notebooks).
-We also discuss some considerations for [software used in class](code:software).
+Here we discuss accessibility best practices when sharing [code snippets](#code:snippets),
+[Jupyter Notebooks, and MATLAB Live Scripts](#code:notebooks).
+We also discuss some considerations for [software used in class](#code:software).
 
 (code:snippets)=
 ## Code Snippets

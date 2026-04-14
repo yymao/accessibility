@@ -1,9 +1,9 @@
 # LaTeX Documents
 
 To make LaTeX-generated documents accessible, there are three key steps:
-1. [Share the source LaTeX file along with the compiled PDF files](latex:share-source),
-2. [Enable the PDF tagging feature in your LaTeX source file](latex:enable-tagging), and
-3. [Update the content to fully utilize accessibility features](latex:update-content).
+1. [Share the source LaTeX file along with the compiled PDF files](#latex:share-source),
+2. [Enable the PDF tagging feature in your LaTeX source file](#latex:enable-tagging), and
+3. [Update the content to fully utilize accessibility features](#latex:update-content).
 
 (latex:share-source)=
 ## Share the Source LaTeX File
@@ -44,11 +44,11 @@ To enable the PDF tagging feature, add the `\DocumentMetadata` command with the 
 Adding this command will automatically enable tagging and accessibility compatibility features in the generated PDF, and the resulting PDF file should pass the accessibility checker on Canvas.
 The PDF file will look visually identical, whether on screen or printed; the accessibility features are embedded behind the scenes.
 
-If your document contains images or tables, you need to take additional steps to ensure full accessibility compliance (see [the section below](latex:update-content)).
+If your document contains images or tables, you need to take additional steps to ensure full accessibility compliance (see [the section below](#latex:update-content)).
 You should also use semantic markup in your LaTeX source file (such as `\section{}` for section headings) to ensure the generated PDF file is properly tagged.
 
 For math content such as equations, the setup above adds the LaTeX source code as alternative text, but this is not the best practice for people using screen readers.
-See [](latex:mathml) for a better approach for math content.
+See [](#latex:mathml) for a better approach for math content.
 
 :::{tip}
 If you encounter any compilation errors after adding the `\DocumentMetadata` command, please refer to the [troubleshooting guide](latex-troubleshooting) to resolve these issues.

@@ -25,7 +25,7 @@ If you cannot find an alternative source, you can try using UDoIt (available in 
 
 ## Use Adobe Acrobat Pro to Add or Check Accessibility Features
 
-If you have access to Adobe Acrobat Pro ([the U offers it](tools:acrobat)), you can use it to check the accessibility features in an existing PDF file, and also to add them if they are missing.
+If you have access to Adobe Acrobat Pro ([the U offers it](#tools:acrobat)), you can use it to check the accessibility features in an existing PDF file, and also to add them if they are missing.
 
 1. Open the PDF file in Adobe Acrobat Pro.
 2. Go to `Tools` > `Accessibility` (sometimes called `Prepare for accessibility`)

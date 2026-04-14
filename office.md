@@ -18,6 +18,9 @@ For how to write good alt text, please refer to the [](images.md) page. Below ar
 1.  Right-click the image (or a non-text object).
 2.  Select `View Alt Text...` from the context menu (sometimes called `Edit Alt Text...`).
 3.  Enter the image description in the box. Microsoft Office may offer to generate a description for you; if you use this feature, be sure to review and edit it.
+    :::{tip}
+    Microsoft Word/PowerPoint's AI generated alt text is often not very descriptive. It is recommended to use an AI chatbot instead, as described in [](images.md), to generate better alt text for your images.
+    :::
 4.  If the image is purely decorative, you can check the `Mark as decorative` checkbox if available. If that option is not available, you can simply say "decorative" in the alt text box.
 
 ### For OpenOffice/LibreOffice

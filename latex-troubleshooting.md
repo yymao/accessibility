@@ -35,7 +35,7 @@ Resolve any issues, and then restore the `\DocumentMetadata` command to see if i
 If your document compiles successfully without the `\DocumentMetadata` command but still fails when `\DocumentMetadata` is added back,
 it is likely that some of the LaTeX packages you are using are not compatible with the PDF tagging feature.
 
-If you haven't updated your LaTeX packages recently, try updating them first (see [](latex:update-packages) for instructions). *Note that updating packages is a distinct process from updating your LaTeX distribution*.
+If you haven't updated your LaTeX packages recently, try updating them first (see [](#latex:update-packages) for instructions). *Note that updating packages is a distinct process from updating your LaTeX distribution*.
 
 If you are lucky, the offending packages may have been updated to solve the issue. Make sure to remove auxiliary files before recompiling.
 
