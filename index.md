@@ -13,11 +13,11 @@ in Physics and Astronomy.
 The main goal of this project is to help instructors
 in the Department of Physics and Astronomy
 at the University of Utah to meet the
-[updated Title II and ADA requirements](https://www.ada.gov/resources/2024-03-08-web-rule/ "https://www.ada.gov/resources/2024-03-08-web-rule/").
+[updated ADA Title II requirements on the accessibility of web content](https://www.ada.gov/resources/2024-03-08-web-rule/ "https://www.ada.gov/resources/2024-03-08-web-rule/").
 
-:::{hint}
-Starting on April 24, 2026, all course materials that are provided to students online must meet the Web Content Accessibility Guidelines (WCAG) Version 2.1, Level AA standards.
-If you are not posting new materials for your Spring 2026 courses after April 24, 2026, you can focus on making your upcoming Summer/Fall 2026 course materials accessible.
+:::{important} Compliance Date Extended to April 2027
+On April 20, 2026, the Department of Justice (DoJ) issued [an Interim Final Rule (IFR) that extends the compliance dates by one year](https://www.federalregister.gov/d/2026-07663). The compliance date is now April 26, 2027 for the University of Utah.
+This IFR does not change the requirements in DoJ's [2024 final rule](https://www.federalregister.gov/d/2024-07758). DoJ [states that](https://www.federalregister.gov/d/2026-07663/p-112) it will consider potential changes to the requirements during the extension period, but fully anticipates implementing the regulation at the new deadline if no changes are made.
 :::
 
 :::{tip}
