@@ -17,7 +17,7 @@ at the University of Utah to meet the
 
 :::{important} Compliance Date Extended to April 2027
 On April 20, 2026, the Department of Justice (DoJ) issued [an Interim Final Rule (IFR) that extends the compliance dates by one year](https://www.federalregister.gov/d/2026-07663). The compliance date is now April 26, 2027 for the University of Utah.
-This IFR does not change the requirements in DoJ's [2024 final rule](https://www.federalregister.gov/d/2024-07758). DoJ [states that](https://www.federalregister.gov/d/2026-07663/p-112) it will consider potential changes to the requirements during the extension period, but fully anticipates implementing the regulation at the new deadline if no changes are made.
+This IFR does not change the requirements in DoJ's [2024 final rule](https://www.federalregister.gov/d/2024-07758). The DoJ [states that](https://www.federalregister.gov/d/2026-07663/p-112) it may consider potential changes to the requirements during the extension period, but fully anticipates implementing the regulation at the new deadline if no changes are made.
 :::
 
 :::{tip}
